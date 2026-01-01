@@ -1,73 +1,160 @@
+/* 
+  Gift of Life Foundation - Modern Design System
+  Main Color Tokens & Global Styles
+*/
+
 :root {
-    --primary-color: #8B1D2E; /* Deep Red from the image */
-    --secondary-color: #2D3436;
-    --accent-color: #F8B400;
-    --text-color: #2D3436;
-    --light-bg: #F9F9F9;
+    --primary-color: #720917;
+    /* Refined Deep Crimson */
+    --primary-light: #8B1D2E;
+    --secondary-color: #1a1a1a;
+    --accent-color: #f8f9fa;
+    --text-main: #2d3436;
+    --text-muted: #636e72;
+    --glass-bg: rgba(255, 255, 255, 0.8);
+    --glass-border: rgba(255, 255, 255, 0.2);
+    --transition-smooth: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    --shadow-soft: 0 10px 30px rgba(0, 0, 0, 0.05);
+    --shadow-medium: 0 15px 35px rgba(0, 0, 0, 0.1);
 }
 
 body {
     font-family: 'Inter', sans-serif;
-    color: var(--text-color);
-    line-height: 1.6;
+    color: var(--text-main);
+    line-height: 1.7;
+    overflow-x: hidden;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Playfair Display', serif;
     font-weight: 700;
 }
 
-.text-primary {
-    color: var(--primary-color) !important;
+/* Glassmorphism Header */
+header.sticky-top {
+    background: var(--glass-bg);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-bottom: 1px solid var(--glass-border);
+    transition: var(--transition-smooth);
+}
+
+/* Elegant Buttons */
+.btn {
+    transition: var(--transition-smooth);
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    font-size: 0.85rem;
 }
 
 .btn-primary {
-    background-color: var(--primary-color) !important;
-    border-color: var(--primary-color) !important;
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+    box-shadow: 0 4px 15px rgba(114, 9, 23, 0.2);
 }
 
 .btn-primary:hover {
-    background-color: #6D1624 !important;
-    border-color: #6D1624 !important;
+    background-color: var(--primary-light);
+    border-color: var(--primary-light);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(114, 9, 23, 0.3);
 }
 
-/* Hero Section */
-.hero-section {
-    padding: 100px 0;
-    background-color: #fff;
-}
-
-.hero-title {
-    font-size: 3.5rem;
-    font-weight: 800;
-    line-height: 1.1;
-    margin-bottom: 2rem;
-}
-
-/* Section Styling */
-.section-padding {
-    padding: 80px 0;
-}
-
-.bg-light-gray {
-    background-color: var(--light-bg);
-}
-
-/* Impact Cards */
-.impact-card {
-    transition: transform 0.3s ease;
-    border: none;
-}
-
-.impact-card:hover {
-    transform: translateY(-10px);
-}
-
-/* Custom Nav Links */
-.navbar-light .navbar-nav .nav-link:hover {
+.btn-outline-primary {
     color: var(--primary-color);
+    border-color: var(--primary-color);
 }
 
-/* Footer refinements */
-footer a:hover {
-    color: var(--primary-color) !important;
+.btn-outline-primary:hover {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+}
+
+/* Modern Cards */
+.card {
+    border: none;
+    border-radius: 20px;
+    transition: var(--transition-smooth);
+    background: white;
+}
+
+.hover-shadow:hover {
+    transform: translateY(-10px);
+    box-shadow: var(--shadow-medium) !important;
+}
+
+/* Section Spacing */
+.section-padding {
+    padding: 100px 0;
+}
+
+/* Nav Links Underline Animation */
+.nav-link {
+    position: relative;
+    padding-bottom: 5px;
+}
+
+.nav-link::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: 0;
+    left: 15px;
+    background-color: var(--primary-color);
+    transition: var(--transition-smooth);
+}
+
+.nav-link:hover::after,
+.nav-link.active::after {
+    width: calc(100% - 30px);
+}
+
+/* Badge Styling */
+.badge {
+    padding: 6px 12px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
+/* Form Styling */
+.form-control {
+    padding: 12px 20px;
+    border-radius: 12px;
+    border: 1px solid #eee;
+    transition: var(--transition-smooth);
+}
+
+.form-control:focus {
+    box-shadow: 0 0 0 4px rgba(114, 9, 23, 0.1);
+    border-color: var(--primary-color);
+}
+
+/* Stats Progress */
+.impact-stat-card {
+    padding: 40px;
+    border-radius: 24px;
+    background: white;
+    box-shadow: var(--shadow-soft);
+    text-align: center;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--primary-color);
+    border-radius: 10px;
 }

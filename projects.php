@@ -1,86 +1,85 @@
 <?php 
-$pageTitle = "Our Projects";
+$pageTitle = "Explore Our Impact Projects";
 include('includes/head.php'); 
 include('includes/header.php'); 
 
 $projects = [
     [
-        'title' => 'Building Schools',
+        'title' => 'The Shepherd Support',
         'category' => 'Education',
-        'desc' => 'Building schools to give kids access to quality education in rural communities.',
-        'img' => 'https://images.unsplash.com/photo-1497633762265-9d179a990aa6?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80',
-        'icon' => 'fa-school'
+        'desc' => 'Providing educational materials and support to community schools in rural areas.',
+        'image' => 'https://images.unsplash.com/photo-1503676260728-1c00da094a0b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+        'delay' => 100
     ],
     [
-        'title' => 'Healthpost Setup',
-        'category' => 'Healthcare',
-        'desc' => 'Setting up health facilities for better community healthcare and emergency response.',
-        'img' => 'https://images.unsplash.com/photo-1538108197017-c1b99a07c39e?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80',
-        'icon' => 'fa-hospital'
+        'title' => 'Community Donations for All',
+        'category' => 'Community',
+        'desc' => 'Monthly distribution of essential supplies, food, and clothing to families in need.',
+        'image' => 'https://images.unsplash.com/photo-1469571486292-0ba58a3f068b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+        'delay' => 200
     ],
     [
-        'title' => 'Medical Aid Support',
-        'category' => 'Healthcare',
-        'desc' => 'Providing medical aid and support to those who need it most in underserved areas.',
-        'img' => 'https://images.unsplash.com/photo-1505751172876-fa1923c5c528?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80',
-        'icon' => 'fa-stethoscope'
-    ],
-    [
-        'title' => 'Women Empowerment',
+        'title' => 'Women Empowerment Initiatives',
         'category' => 'Empowerment',
-        'desc' => 'Skills training and resources to empower women for sustainable livelihoods.',
-        'img' => 'https://images.unsplash.com/photo-1531206715517-5c0ba140b2b8?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80',
-        'icon' => 'fa-female'
+        'desc' => 'Skills training and startup tools for women to build sustainable livelihoods.',
+        'image' => 'https://images.unsplash.com/photo-1544027993-37dbfe43562a?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+        'delay' => 300
     ],
     [
-        'title' => 'School Support for Kids',
-        'category' => 'Education',
-        'desc' => 'Helping children get into and stay in school with supplies and scholarships.',
-        'img' => 'https://images.unsplash.com/photo-1546410531-bb4caa6b424d?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80',
-        'icon' => 'fa-book-reader'
+        'title' => 'Medical Post Construction',
+        'category' => 'Healthcare',
+        'desc' => 'Building and equipping health posts in areas with limited medical access.',
+        'image' => 'https://images.unsplash.com/photo-1516549655169-df83a0774514?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+        'delay' => 400
     ],
     [
-        'title' => 'Community Donations',
-        'category' => 'Outreach',
-        'desc' => 'Offering cash and in-kind support to vulnerable groups and orphanages.',
-        'img' => 'https://images.unsplash.com/photo-1469571486292-0ba38a0f16db?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80',
-        'icon' => 'fa-gift'
+        'title' => 'School Building Project',
+        'category' => 'Infrastructure',
+        'desc' => 'Constructing modern classrooms and learning centers for underprivileged children.',
+        'image' => 'https://images.unsplash.com/photo-1509062522246-3755977927d7?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+        'delay' => 500
+    ],
+    [
+        'title' => 'The Red Charity Project',
+        'category' => 'Healthcare',
+        'desc' => 'Specialized medical aid and support for vulnerable mothers and infants.',
+        'image' => 'https://images.unsplash.com/photo-1584515933487-759f2121f2ec?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+        'delay' => 600
     ]
 ];
 ?>
 
-<!-- Internal Hero -->
-<section class="py-5 bg-light-gray" style="background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://images.unsplash.com/photo-1489914169085-9b54fdd8f2a2?ixlib=rb-4.0.3&auto=format&fit=crop&w=1500&q=80'); background-size: cover; background-position: center; color: white;">
-    <div class="container py-5 text-center">
-        <h1 class="display-4 fw-bold">Our Impact Projects</h1>
-        <p class="lead">Turning compassion into action through sustainable community projects.</p>
+<!-- Modern Header -->
+<section class="py-5 bg-primary text-white text-center position-relative overflow-hidden">
+    <div class="container py-5 position-relative" style="z-index: 2;" data-aos="fade-up">
+        <h1 class="display-3 fw-bold mb-3">Our <span class="text-dark">Impact</span> Projects</h1>
+        <p class="lead opacity-75 mx-auto" style="max-width: 600px;">Explore the initiatives that are changing lives and building stronger communities across the nation.</p>
     </div>
 </section>
 
-<!-- Projects Grid -->
 <section class="section-padding">
     <div class="container">
-        <div class="row g-4">
+        <!-- Filter Tabs -->
+        <div class="d-flex justify-content-center flex-wrap gap-2 mb-5" data-aos="fade-up">
+            <button class="btn btn-primary rounded-pill px-4">All Projects</button>
+            <button class="btn btn-light rounded-pill px-4 shadow-sm">Education</button>
+            <button class="btn btn-light rounded-pill px-4 shadow-sm">Healthcare</button>
+            <button class="btn btn-light rounded-pill px-4 shadow-sm">Empowerment</button>
+        </div>
+        
+        <div class="row g-4 mt-2">
             <?php foreach($projects as $project): ?>
-            <div class="col-lg-4 col-md-6">
-                <div class="card h-100 border-0 shadow-sm project-card">
-                    <div class="position-relative">
-                        <img src="<?php echo $project['img']; ?>" class="card-img-top" alt="<?php echo $project['title']; ?>" style="height: 250px; object-fit: cover;">
-                        <div class="position-absolute top-0 start-0 m-3">
-                            <span class="badge bg-primary px-3 py-2"><?php echo $project['category']; ?></span>
-                        </div>
+            <div class="col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="<?php echo $project['delay']; ?>">
+                <div class="card h-100 hover-shadow shadow-sm overflow-hidden p-3 bg-white">
+                    <div class="position-relative overflow-hidden rounded-4">
+                        <img src="<?php echo $project['image']; ?>" class="card-img-top rounded-4" style="height: 250px; object-fit: cover;" alt="<?php echo $project['title']; ?>">
+                        <div class="badge bg-primary position-absolute top-0 end-0 m-3 shadow-sm"><?php echo $project['category']; ?></div>
                     </div>
-                    <div class="card-body p-4">
-                        <div class="d-flex align-items-center mb-3">
-                            <div class="icon-box me-3 text-primary">
-                                <i class="fas <?php echo $project['icon']; ?> fa-lg"></i>
-                            </div>
-                            <h5 class="card-title fw-bold mb-0"><?php echo $project['title']; ?></h5>
-                        </div>
-                        <p class="card-text text-secondary small"><?php echo $project['desc']; ?></p>
-                    </div>
-                    <div class="card-footer bg-white border-0 p-4 pt-0">
-                        <a href="get-involved" class="btn btn-outline-primary w-100 rounded-0">Support Project</a>
+                    <div class="card-body px-1 py-4">
+                        <h4 class="fw-bold mb-3"><?php echo $project['title']; ?></h4>
+                        <p class="card-text text-muted small lh-lg"><?php echo $project['desc']; ?></p>
+                        <hr class="my-4 opacity-10">
+                        <a href="get-involved" class="btn btn-outline-primary w-100 rounded-pill">Support This Project</a>
                     </div>
                 </div>
             </div>
@@ -89,25 +88,16 @@ $projects = [
     </div>
 </section>
 
-<!-- Stats Recap -->
-<section class="py-5" style="background-color: #f8f9fa;">
+<!-- Call to Action -->
+<section class="section-padding bg-dark text-white">
     <div class="container">
-        <div class="row text-center g-4">
-            <div class="col-6 col-md-3">
-                <h2 class="fw-bold text-primary mb-0">10+</h2>
-                <p class="text-secondary small">Schools Built</p>
+        <div class="row align-items-center g-5">
+            <div class="col-lg-7" data-aos="fade-right">
+                <h2 class="display-5 fw-bold mb-4">Have a Project in Mind?</h2>
+                <p class="lead opacity-75 mb-0">We are always looking for new ways to make an impact. If you have an idea or want to partner on a specific community goal, reach out to us today.</p>
             </div>
-            <div class="col-6 col-md-3">
-                <h2 class="fw-bold text-primary mb-0">5k+</h2>
-                <p class="text-secondary small">Children Supported</p>
-            </div>
-            <div class="col-6 col-md-3">
-                <h2 class="fw-bold text-primary mb-0">150+</h2>
-                <p class="text-secondary small">Women Empowered</p>
-            </div>
-            <div class="col-6 col-md-3">
-                <h2 class="fw-bold text-primary mb-0">20+</h2>
-                <p class="text-secondary small">Communities Reached</p>
+            <div class="col-lg-5 text-lg-end" data-aos="fade-left">
+                <a href="contact" class="btn btn-primary btn-lg px-5 py-3 rounded-pill">Collaborate With Us</a>
             </div>
         </div>
     </div>
