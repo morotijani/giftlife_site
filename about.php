@@ -10,7 +10,7 @@ include('includes/header.php');
         <h1 class="display-4 fw-bold">About Our Foundation</h1>
         <nav aria-label="breadcrumb">
             <ol class="breadcrumb justify-content-center">
-                <li class="breadcrumb-item"><a href="index.php" class="text-decoration-none">Home</a></li>
+                <li class="breadcrumb-item"><a href="index" class="text-decoration-none">Home</a></li>
                 <li class="breadcrumb-item active text-primary" aria-current="page">About Us</li>
             </ol>
         </nav>
@@ -121,8 +121,8 @@ include('includes/header.php');
         <h2 class="fw-bold mb-4">Want to Join Our Mission?</h2>
         <p class="lead mb-5 opacity-75">We are always looking for passionate volunteers and partners to help us reach more communities.</p>
         <div class="d-flex justify-content-center gap-3">
-            <a href="get-involved.php" class="btn btn-light btn-lg rounded-pill px-5">Donate</a>
-            <a href="get-involved.php#volunteer" class="btn btn-outline-light btn-lg rounded-pill px-5">Volunteer</a>
+            <a href="get-involved" class="btn btn-light btn-lg rounded-pill px-5">Donate</a>
+            <a href="get-involved#volunteer" class="btn btn-outline-light btn-lg rounded-pill px-5">Volunteer</a>
         </div>
     </div>
 </section>

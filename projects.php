@@ -80,7 +80,7 @@ $projects = [
                         <p class="card-text text-secondary small"><?php echo $project['desc']; ?></p>
                     </div>
                     <div class="card-footer bg-white border-0 p-4 pt-0">
-                        <a href="get-involved.php" class="btn btn-outline-primary w-100 rounded-0">Support Project</a>
+                        <a href="get-involved" class="btn btn-outline-primary w-100 rounded-0">Support Project</a>
                     </div>
                 </div>
             </div>

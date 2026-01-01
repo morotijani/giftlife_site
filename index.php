@@ -23,7 +23,7 @@ include('includes/header.php');
                     </div>
                     <h1 class="hero-title">HELP US TO <span class="text-primary">SAVE</span> THE LIVES OF MANY.</h1>
                     <p class="lead text-secondary mb-5">At Gift of Life Foundation, we're dedicated to supporting women, children, and communities in need through healthcare, education, and empowerment.</p>
-                    <a href="about.php" class="btn btn-dark btn-lg px-5 py-3 rounded-0">Learn More</a>
+                    <a href="about" class="btn btn-dark btn-lg px-5 py-3 rounded-0">Learn More</a>
                 </div>
             </div>
         </div>
@@ -39,7 +39,7 @@ include('includes/header.php');
                     <i class="fas fa-users fa-2x mb-3"></i>
                     <h3>Who We Are</h3>
                     <p class="small opacity-75">A collective dedicated to upliftment.</p>
-                    <a href="about.php" class="text-white text-decoration-none small fw-bold">Read More <i class="fas fa-arrow-right ms-1"></i></a>
+                    <a href="about" class="text-white text-decoration-none small fw-bold">Read More <i class="fas fa-arrow-right ms-1"></i></a>
                 </div>
             </div>
             <div class="col-md-4 mb-4 mb-md-0">
@@ -47,7 +47,7 @@ include('includes/header.php');
                     <i class="fas fa-hand-holding-heart fa-2x mb-3"></i>
                     <h3>Who Gets Help</h3>
                     <p class="small opacity-75">Vulnerable women and children across communities.</p>
-                    <a href="projects.php" class="text-white text-decoration-none small fw-bold">Beneficiaries <i class="fas fa-arrow-right ms-1"></i></a>
+                    <a href="projects" class="text-white text-decoration-none small fw-bold">Beneficiaries <i class="fas fa-arrow-right ms-1"></i></a>
                 </div>
             </div>
             <div class="col-md-4">
@@ -55,7 +55,7 @@ include('includes/header.php');
                     <i class="fas fa-briefcase-medical fa-2x mb-3"></i>
                     <h3>What We Do</h3>
                     <p class="small opacity-75">Healthcare, education, and basic amenities.</p>
-                    <a href="projects.php" class="text-white text-decoration-none small fw-bold">Full Mission <i class="fas fa-arrow-right ms-1"></i></a>
+                    <a href="projects" class="text-white text-decoration-none small fw-bold">Full Mission <i class="fas fa-arrow-right ms-1"></i></a>
                 </div>
             </div>
         </div>
@@ -82,7 +82,7 @@ include('includes/header.php');
                         <hr class="my-4">
                         <div class="d-flex justify-content-between align-items-center">
                             <span class="fw-bold text-primary">GH₵ 15,000 Goal</span>
-                            <a href="get-involved.php" class="btn btn-dark btn-sm rounded-0">Donate Now</a>
+                            <a href="get-involved" class="btn btn-dark btn-sm rounded-0">Donate Now</a>
                         </div>
                     </div>
                 </div>
@@ -99,7 +99,7 @@ include('includes/header.php');
                         <hr class="my-4">
                         <div class="d-flex justify-content-between align-items-center">
                             <span class="fw-bold text-primary">GH₵ 10,000 Goal</span>
-                            <a href="get-involved.php" class="btn btn-dark btn-sm rounded-0">Donate Now</a>
+                            <a href="get-involved" class="btn btn-dark btn-sm rounded-0">Donate Now</a>
                         </div>
                     </div>
                 </div>
@@ -116,7 +116,7 @@ include('includes/header.php');
                         <hr class="my-4">
                         <div class="d-flex justify-content-between align-items-center">
                             <span class="fw-bold text-primary">GH₵ 8,000 Goal</span>
-                            <a href="get-involved.php" class="btn btn-dark btn-sm rounded-0">Donate Now</a>
+                            <a href="get-involved" class="btn btn-dark btn-sm rounded-0">Donate Now</a>
                         </div>
                     </div>
                 </div>
@@ -134,7 +134,7 @@ include('includes/header.php');
                 <p class="opacity-75 mb-lg-0">Your support helps us build schools, provide healthcare, and empower women across Ghana.</p>
             </div>
             <div class="col-lg-5 text-lg-end">
-                <a href="get-involved.php" class="btn btn-primary btn-lg rounded-0 px-5">Get Started</a>
+                <a href="get-involved" class="btn btn-primary btn-lg rounded-0 px-5">Get Started</a>
             </div>
         </div>
     </div>
@@ -148,7 +148,7 @@ include('includes/header.php');
                 <span class="text-primary fw-bold text-uppercase small">Blog & News</span>
                 <h2 class="display-6 fw-bold mt-2">Latest News & Article</h2>
             </div>
-            <a href="blog.php" class="btn btn-outline-primary rounded-pill px-4">See All <i class="fas fa-chevron-right ms-1 small"></i></a>
+            <a href="blog" class="btn btn-outline-primary rounded-pill px-4">See All <i class="fas fa-chevron-right ms-1 small"></i></a>
         </div>
         
         <div class="row g-4">
@@ -158,7 +158,7 @@ include('includes/header.php');
                     <div>
                         <div class="text-muted small mb-1 mt-2"><i class="far fa-calendar-alt me-2"></i> Jan 01, 2026</div>
                         <h6 class="fw-bold">Pioneering a New Age for Children's Learning</h6>
-                        <a href="blog.php" class="text-primary fw-bold small text-decoration-none">Read More <i class="fas fa-arrow-right ms-1"></i></a>
+                        <a href="blog" class="text-primary fw-bold small text-decoration-none">Read More <i class="fas fa-arrow-right ms-1"></i></a>
                     </div>
                 </div>
             </div>
@@ -168,7 +168,7 @@ include('includes/header.php');
                     <div>
                         <div class="text-muted small mb-1 mt-2"><i class="far fa-calendar-alt me-2"></i> Dec 28, 2025</div>
                         <h6 class="fw-bold">Impact Report: Healthcare Milestones in 2025</h6>
-                        <a href="blog.php" class="text-primary fw-bold small text-decoration-none">Read More <i class="fas fa-arrow-right ms-1"></i></a>
+                        <a href="blog" class="text-primary fw-bold small text-decoration-none">Read More <i class="fas fa-arrow-right ms-1"></i></a>
                     </div>
                 </div>
             </div>
