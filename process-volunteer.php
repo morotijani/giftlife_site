@@ -13,6 +13,36 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $stmt = $pdo->prepare("INSERT INTO volunteers (first_name, last_name, email, phone, interest, message) VALUES (?, ?, ?, ?, ?, ?)");
         $stmt->execute([$firstname, $lastname, $email, $phone, $interest, $message]);
         
+        // Email Notifications
+        require_once 'includes/mail-helper.php';
+        
+        // Admin Alert
+        $adminBody = "
+            <div style='font-family: Arial, sans-serif; line-height: 1.6;'>
+                <h2 style='color: #720917;'>New Volunteer Application</h2>
+                <p><strong>Name:</strong> {$firstname} {$lastname}</p>
+                <p><strong>Email:</strong> {$email}</p>
+                <p><strong>Phone:</strong> {$phone}</p>
+                <p><strong>Interest Area:</strong> {$interest}</p>
+                <p><strong>Message:</strong></p>
+                <div style='background: #f8f9fa; padding: 15px; border-radius: 8px;'>{$message}</div>
+            </div>
+        ";
+        sendEmail(ADMIN_EMAIL, "New Volunteer Application: {$firstname} {$lastname}", $adminBody);
+
+        // Volunteer Confirmation
+        $volunteerBody = "
+            <div style='font-family: Arial, sans-serif; line-height: 1.6;'>
+                <h2 style='color: #720917;'>Thank You for Joining Us!</h2>
+                <p>Hi {$firstname},</p>
+                <p>We've received your application to volunteer with our team at <strong>HARUZA FOUNDATION GHANA</strong> in the area of <strong>{$interest}</strong>.</p>
+                <p>Our community leads are reviewing your profile and will get back to you shortly to discuss the next steps.</p>
+                <p>Thank you for your heart for service!</p>
+                <p>Warm regards,<br>The HARUZA Team</p>
+            </div>
+        ";
+        sendEmail($email, "Volunteer Application Received", $volunteerBody);
+
         include('includes/head.php');
         include('includes/header.php');
         ?>

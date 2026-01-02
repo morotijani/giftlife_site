@@ -103,10 +103,10 @@ include('includes/header.php');
                                 <label class="form-label fw-bold small">Area of Interest</label>
                                 <select name="interest" class="form-select rounded- pill py-3" required>
                                     <option value="" selected disabled>Choose...</option>
-                                    <option value="healthcare">Healthcare Support</option>
-                                    <option value="education">Teaching/School Support</option>
-                                    <option value="event">Event Organizing</option>
-                                    <option value="admin">Administrative</option>
+                                    <option value="skills_training">Skills Training Facilitator</option>
+                                    <option value="community_dev">Community Development</option>
+                                    <option value="mentorship">Youth Mentorship</option>
+                                    <option value="women_empowerment">Women Empowerment Support</option>
                                 </select>
                             </div>
                             <div class="mb-5">

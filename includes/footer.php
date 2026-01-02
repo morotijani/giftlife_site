@@ -2,8 +2,8 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-4 mb-4">
-                <h5 class="fw-bold mb-4" style="color: #8B1D2E;">Gift of Life Foundation</h5>
-                <p class="text-secondary">Dedicated to supporting women, children, and communities in need through healthcare, education, and empowerment.</p>
+                <h5 class="fw-bold mb-4" style="color: #720917;">HARUZA FOUNDATION GHANA</h5>
+                <p class="text-secondary">Empowering women and youth through skilled training and providing social amenities to communities across Ghana.</p>
                 <div class="social-links mt-4">
                     <a href="#" class="text-white me-3 fs-5"><i class="fab fa-facebook-f"></i></a>
                     <a href="#" class="text-white me-3 fs-5"><i class="fab fa-twitter"></i></a>
@@ -42,7 +42,7 @@
         <hr class="mt-4 mb-4 border-secondary">
         <div class="row">
             <div class="col-md-12 text-center">
-                <p class="text-secondary small mb-0">&copy; <?php echo date("Y"); ?> Gift of Life Foundation. All Rights Reserved.</p>
+                <p class="text-secondary small mb-0">&copy; <?php echo date("Y"); ?> HARUZA FOUNDATION GHANA. All Rights Reserved.</p>
             </div>
         </div>
     </div>

@@ -41,8 +41,8 @@ include('includes/header.php');
                         <div class="me-4 fs-3 opacity-75"><i class="fas fa-envelope"></i></div>
                         <div>
                             <h6 class="fw-bold mb-1">Email Support</h6>
-                            <p class="small mb-0 opacity-75">info@giftoflife.org</p>
-                            <p class="small mb-0 opacity-75">donations@giftoflife.org</p>
+                            <p class="small mb-0 opacity-75">info@haruzafoundation.org</p>
+                            <p class="small mb-0 opacity-75">donations@haruzafoundation.org</p>
                         </div>
                     </div>
                     
@@ -65,11 +65,11 @@ include('includes/header.php');
                         <div class="row g-4">
                             <div class="col-md-6">
                                 <label class="form-label fw-bold small">Full Name</label>
-                                <input type="text" name="name" class="form-control rounded-4 py-3" placeholder="John Doe" required>
+                                <input type="text" name="name" class="form-control rounded-4 py-3" placeholder="Kwaku Frimpong" required>
                             </div>
                             <div class="col-md-6">
                                 <label class="form-label fw-bold small">Email Address</label>
-                                <input type="email" name="email" class="form-control rounded-4 py-3" placeholder="john@example.com" required>
+                                <input type="email" name="email" class="form-control rounded-4 py-3" placeholder="kwakufrimpong@example.com" required>
                             </div>
                             <div class="col-12">
                                 <label class="form-label fw-bold small">Subject</label>

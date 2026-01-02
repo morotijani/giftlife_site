@@ -23,7 +23,7 @@ include('includes/header.php');
         <div class="row align-items-center g-5">
             <div class="col-lg-6" data-aos="fade-right">
                 <div class="position-relative">
-                    <img src="https://images.unsplash.com/photo-1532629345422-7515f3d16bb8?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" class="img-fluid rounded-4 shadow-lg" alt="About Us">
+                    <img src="assets/images/about.jpg" class="img-fluid rounded-4 shadow-lg" alt="About Us">
                     <div class="position-absolute bottom-0 end-0 bg-primary text-white p-4 rounded-4 translate-middle-y me-n4 d-none d-md-block" style="width: 200px;">
                         <h3 class="fw-bold mb-0">15+</h3>
                         <p class="small mb-0 opacity-75">Years of Unwavering Service</p>
@@ -33,7 +33,7 @@ include('includes/header.php');
             <div class="col-lg-6" data-aos="fade-left">
                 <span class="text-primary fw-bold text-uppercase small letter-spacing-2">Who We Are</span>
                 <h2 class="display-5 fw-bold mt-2 mb-4">Dedicated to Uplifting Humanity</h2>
-                <p class="text-muted lead mb-4">The Gift of Life Foundation is a non-governmental organization born from a shared vision to tackle the pressing challenges faced by marginalized communities across Ghana.</p>
+                <p class="text-muted lead mb-4">HARUZA FOUNDATION GHANA is a non-governmental organization born from a shared vision to tackle the pressing challenges faced by marginalized communities across Ghana.</p>
                 <p class="text-muted mb-5">We believe that every woman deserves economic independence, every child deserves quality education, and every community deserves access to life-saving healthcare. Our programs are designed to be sustainable, community-led, and impact-driven.</p>
                 
                 <div class="row g-4">
@@ -77,7 +77,7 @@ include('includes/header.php');
                         <i class="fas fa-eye text-primary fs-3"></i>
                     </div>
                     <h3 class="fw-bold mb-3">Our Vision</h3>
-                    <p class="text-muted">To build a nation where basic needs are a right, not a privilege, and where every individual has the tools to escape the cycle of poverty.</p>
+                    <p class="text-muted">To see a Ghana where every youth and woman is economically empowered and every community enjoys standard social amenities.</p>
                 </div>
             </div>
             <div class="col-md-5" data-aos="fade-up" data-aos-delay="200">
@@ -86,7 +86,7 @@ include('includes/header.php');
                         <i class="fas fa-rocket text-dark fs-3"></i>
                     </div>
                     <h3 class="fw-bold mb-3">Our Mission</h3>
-                    <p class="text-muted">To provide essential amenities, educational support, and healthcare services while empowering women through skills training and resources.</p>
+                    <p class="text-muted">To empower women and youth through professional skilled training programs and to improve living standards by providing modern social amenities to communities.</p>
                 </div>
             </div>
         </div>

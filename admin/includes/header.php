@@ -51,7 +51,7 @@
 <body>
     <div class="sidebar d-none d-md-block">
         <div class="p-4 mb-4 mt-2">
-            <h5 class="fw-bold mb-0 text-white"><i class="fas fa-heart text-primary me-2"></i> Gift of Life</h5>
+            <h5 class="fw-bold mb-0 text-white"><i class="fas fa-heart text-primary me-2"></i> HARUZA</h5>
             <span class="x-small opacity-50 text-uppercase d-block mt-1">Founders Dashboard</span>
         </div>
         <nav class="nav flex-column">

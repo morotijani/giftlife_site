@@ -11,6 +11,20 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $stmt = $pdo->prepare("INSERT INTO contacts (name, email, subject, message) VALUES (?, ?, ?, ?)");
         $stmt->execute([$name, $email, $subject, $message]);
         
+        // Email Notification to Admin
+        require_once 'includes/mail-helper.php';
+        $emailBody = "
+            <div style='font-family: Arial, sans-serif; line-height: 1.6;'>
+                <h2 style='color: #720917;'>New Contact Inquiry</h2>
+                <p><strong>Name:</strong> {$name}</p>
+                <p><strong>Email:</strong> {$email}</p>
+                <p><strong>Subject:</strong> {$subject}</p>
+                <p><strong>Message:</strong></p>
+                <div style='background: #f8f9fa; padding: 15px; border-radius: 8px;'>{$message}</div>
+            </div>
+        ";
+        sendEmail(ADMIN_EMAIL, "New Contact Inquiry: " . $subject, $emailBody);
+
         include('includes/head.php');
         include('includes/header.php');
         ?>

@@ -6,7 +6,7 @@ include('includes/header.php');
 ?>
 
 <!-- Premium Hero Section -->
-<section class="hero-section min-vh-100 d-flex align-items-center position-relative overflow-hidden" style="background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80'); background-size: cover; background-position: center;">
+<section class="hero-section min-vh-100 d-flex align-items-center position-relative overflow-hidden" style="background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('assets/images/hero.jpg'); background-size: cover; background-position: center;">
     <div class="container position-relative" style="z-index: 2;">
         <div class="row">
             <div class="col-lg-8" data-aos="fade-up">
@@ -32,23 +32,23 @@ include('includes/header.php');
         <div class="row g-4 text-center">
             <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
                 <div class="impact-stat-card border-0 p-4">
-                    <div class="display-4 fw-bold text-primary mb-2">10k+</div>
-                    <div class="h5 fw-bold text-dark mb-3">Children Educated</div>
-                    <p class="text-muted small">Providing free basic education and materials to remote villages.</p>
+                    <div class="display-4 fw-bold text-primary mb-2">5k+</div>
+                    <div class="h5 fw-bold text-dark mb-3">Youth Skilled</div>
+                    <p class="text-muted small">Equipping young Ghanaians with market-ready vocational and digital skills.</p>
                 </div>
             </div>
             <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
                 <div class="impact-stat-card border-0 p-4" style="background: var(--primary-color); color: white;">
-                    <div class="display-4 fw-bold mb-2">50+</div>
-                    <div class="h5 fw-bold mb-3">Health Posts Built</div>
-                    <p class="opacity-75 small">Access to immediate medical care for mothers and infants.</p>
+                    <div class="display-4 fw-bold mb-2">30+</div>
+                    <div class="h5 fw-bold mb-3">Community Projects</div>
+                    <p class="opacity-75 small">Constructing essential social amenities like water points and community centers.</p>
                 </div>
             </div>
             <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
                 <div class="impact-stat-card border-0 p-4">
                     <div class="display-4 fw-bold text-primary mb-2">2k+</div>
                     <div class="h5 fw-bold text-dark mb-3">Women Empowered</div>
-                    <p class="text-muted small">Vocational training and startup grants for small businesses.</p>
+                    <p class="text-muted small">Providing startup capital and business training for female-led micro-enterprises.</p>
                 </div>
             </div>
         </div>
@@ -91,7 +91,7 @@ include('includes/header.php');
             <div class="col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="200">
                 <div class="card h-100 hover-shadow shadow-sm overflow-hidden">
                     <div class="position-relative">
-                        <img src="https://images.unsplash.com/photo-1576091160550-217359f42f8c?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" class="card-img-top" style="height: 250px; object-fit: cover;" alt="Healthcare">
+                        <img src="assets/images/projects/pj-1.jpg" class="card-img-top" style="height: 250px; object-fit: cover;" alt="Healthcare">
                         <div class="badge bg-success position-absolute top-0 end-0 m-3">Healthcare</div>
                     </div>
                     <div class="card-body p-4">
@@ -113,7 +113,7 @@ include('includes/header.php');
             <div class="col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="300">
                 <div class="card h-100 hover-shadow shadow-sm overflow-hidden">
                     <div class="position-relative">
-                        <img src="https://images.unsplash.com/photo-1531482615713-2afd69097998?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" class="card-img-top" style="height: 250px; object-fit: cover;" alt="Women Empowerment">
+                        <img src="assets/images/projects/pj-2.jpg" class="card-img-top" style="height: 250px; object-fit: cover;" alt="Women Empowerment">
                         <div class="badge bg-warning position-absolute top-0 end-0 m-3">Empowerment</div>
                     </div>
                     <div class="card-body p-4">

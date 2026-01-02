@@ -5,45 +5,45 @@ include('includes/header.php');
 
 $projects = [
     [
-        'title' => 'The Shepherd Support',
-        'category' => 'Education',
-        'desc' => 'Providing educational materials and support to community schools in rural areas.',
-        'image' => 'https://images.unsplash.com/photo-1503676260728-1c00da094a0b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+        'title' => 'Skills Masterclass Series',
+        'category' => 'Youth Empowerment',
+        'desc' => 'Intensive vocational training in tailoring, tailoring, and digital literacy for unemployed youth.',
+        'image' => 'https://images.unsplash.com/photo-1544027993-37dbfe43562a?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
         'delay' => 100
     ],
     [
-        'title' => 'Community Donations for All',
-        'category' => 'Community',
-        'desc' => 'Monthly distribution of essential supplies, food, and clothing to families in need.',
-        'image' => 'https://images.unsplash.com/photo-1469571486292-0ba58a3f068b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+        'title' => 'Community Water Access',
+        'category' => 'Social Amenities',
+        'desc' => 'Constructing mechanized boreholes and clean water storage systems in rural farming communities.',
+        'image' => 'https://images.unsplash.com/photo-1541544537156-7627a7a4aa1c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
         'delay' => 200
     ],
     [
-        'title' => 'Women Empowerment Initiatives',
-        'category' => 'Empowerment',
-        'desc' => 'Skills training and startup tools for women to build sustainable livelihoods.',
-        'image' => 'https://images.unsplash.com/photo-1544027993-37dbfe43562a?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+        'title' => 'Women Micro-Grant Program',
+        'category' => 'Women Empowerment',
+        'desc' => 'Empowering rural women with small business grants and intensive financial literacy training.',
+        'image' => 'https://images.unsplash.com/photo-1531206715517-5c0ba140b2b8?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
         'delay' => 300
     ],
     [
-        'title' => 'Medical Post Construction',
-        'category' => 'Healthcare',
-        'desc' => 'Building and equipping health posts in areas with limited medical access.',
-        'image' => 'https://images.unsplash.com/photo-1516549655169-df83a0774514?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+        'title' => 'Community Hub Construction',
+        'category' => 'Social Amenities',
+        'desc' => 'Building multi-purpose centers for community meetings, youth training, and local social gatherings.',
+        'image' => 'https://images.unsplash.com/photo-1517048676732-d65bc937f952?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
         'delay' => 400
     ],
     [
-        'title' => 'School Building Project',
-        'category' => 'Infrastructure',
-        'desc' => 'Constructing modern classrooms and learning centers for underprivileged children.',
-        'image' => 'https://images.unsplash.com/photo-1509062522246-3755977927d7?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+        'title' => 'Youth Digital Tech Lab',
+        'category' => 'Youth Empowerment',
+        'desc' => 'Equipping the next generation with coding, graphic design, and modern digital entrepreneurship skills.',
+        'image' => 'https://images.unsplash.com/photo-1531482615713-2afd69097998?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
         'delay' => 500
     ],
     [
-        'title' => 'The Red Charity Project',
-        'category' => 'Healthcare',
-        'desc' => 'Specialized medical aid and support for vulnerable mothers and infants.',
-        'image' => 'https://images.unsplash.com/photo-1584515933487-759f2121f2ec?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+        'title' => 'Sanitation & Hygiene Drive',
+        'category' => 'Social Amenities',
+        'desc' => 'Building modern public toilet facilities and promoting hygiene education in district schools.',
+        'image' => 'https://images.unsplash.com/photo-1509062522246-3755977927d7?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
         'delay' => 600
     ]
 ];

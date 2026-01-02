@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><?php echo isset($pageTitle) ? $pageTitle . " | Gift of Life Foundation" : "Gift of Life Foundation | Empowering Women & Children"; ?></title>
+    <title><?php echo isset($pageTitle) ? $pageTitle . " | HARUZA FOUNDATION GHANA" : "HARUZA FOUNDATION GHANA | Empowering Youth & Women"; ?></title>
     
     <!-- Favicon -->
     <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">

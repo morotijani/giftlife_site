@@ -2,7 +2,7 @@
     <nav class="navbar navbar-expand-lg navbar-light py-3">
         <div class="container">
             <a class="navbar-brand d-flex align-items-center" href="index">
-                <span class="fw-bold fs-4 text-primary" style="color: #8B1D2E !important;">Gift of Life</span>
+                <span class="fw-bold fs-4 text-primary" style="color: #720917 !important;">HARUZA FOUNDATION</span>
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>

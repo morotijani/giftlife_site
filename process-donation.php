@@ -1,5 +1,5 @@
-<?php
 require_once 'includes/db.php';
+require_once 'includes/config.php';
 
 // Paystack Donation Initiation
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
@@ -28,20 +28,20 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         'email' => $email,
         'amount' => $amount_in_pesewas,
         'reference' => $reference,
-        'callback_url' => "http://localhost/giftlife_site/giftlife_site/verify-payment"
+        'callback_url' => PAYSTACK_CALLBACK_URL
     ];
 
     $fields_string = http_build_query($fields);
 
     $ch = curl_init();
-    curl_setopt($ch,CURL_URL, $url);
-    curl_setopt($ch,CURL_POST, true);
-    curl_setopt($ch,CURL_POSTFIELDS, $fields_string);
+    curl_setopt($ch, CURLOPT_URL, $url);
+    curl_setopt($ch, CURLOPT_POST, true);
+    curl_setopt($ch, CURLOPT_POSTFIELDS, $fields_string);
     curl_setopt($ch, CURLOPT_HTTPHEADER, array(
-        "Authorization: Bearer YOUR_SECRET_KEY_HERE",
+        "Authorization: Bearer " . PAYSTACK_SECRET_KEY,
         "Cache-Control: no-cache",
     ));
-    curl_setopt($ch,CURL_RETURNTRANSFER, true); 
+    curl_setopt($ch, CURLOPT_RETURNTRANSFER, true); 
 
     $result = curl_exec($ch);
     $response = json_decode($result, true);
