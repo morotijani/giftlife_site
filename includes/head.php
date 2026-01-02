@@ -6,7 +6,7 @@
     <title><?php echo isset($pageTitle) ? $pageTitle . " | HARUZA FOUNDATION GHANA" : "HARUZA FOUNDATION GHANA | Empowering Youth & Women"; ?></title>
     
     <!-- Favicon -->
-    <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="assets/images/logo.png" type="image/x-icon">
     
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
