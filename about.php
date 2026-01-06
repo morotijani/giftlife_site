@@ -15,7 +15,7 @@ include('includes/header.php');
             </ol>
         </nav>
     </div>
-    <div class="position-absolute w-100 h-100 top-0 start-0 opacity-25" style="background: url('https://images.unsplash.com/photo-1524069290683-0457abfe42c3?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80'); background-size: cover;"></div>
+    <div class="position-absolute w-100 h-100 top-0 start-0 opacity-25" style="background: url('assets/images/bg-7.jpg'); background-size: cover;"></div>
 </section>
 
 <section class="section-padding">
@@ -23,7 +23,7 @@ include('includes/header.php');
         <div class="row align-items-center g-5">
             <div class="col-lg-6" data-aos="fade-right">
                 <div class="position-relative">
-                    <img src="assets/images/about.jpg" class="img-fluid rounded-4 shadow-lg" alt="About Us">
+                    <img src="assets/images/bg-4.jpg" class="img-fluid rounded-4 shadow-lg" alt="About Us">
                     <div class="position-absolute bottom-0 end-0 bg-primary text-white p-4 rounded-4 translate-middle-y me-n4 d-none d-md-block" style="width: 200px;">
                         <h3 class="fw-bold mb-0">15+</h3>
                         <p class="small mb-0 opacity-75">Years of Unwavering Service</p>
@@ -107,7 +107,7 @@ include('includes/header.php');
                 <div class="card border-0 shadow-sm hover-shadow overflow-hidden text-center p-4">
                     <img src="https://i.pravatar.cc/150?u=1" class="rounded-circle mx-auto mb-4" style="width: 120px; height: 120px; object-fit: cover;" alt="">
                     <h5 class="fw-bold mb-1">Founder's Name</h5>
-                    <p class="text-primary small mb-3">Executive Director</p>
+                    <p class="text-primary small mb-3">Title</p>
                     <div class="social-links">
                         <a href="#" class="text-muted me-2 small"><i class="fab fa-linkedin"></i></a>
                         <a href="#" class="text-muted small"><i class="fab fa-twitter"></i></a>
@@ -117,8 +117,8 @@ include('includes/header.php');
             <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="200">
                 <div class="card border-0 shadow-sm hover-shadow overflow-hidden text-center p-4">
                     <img src="https://i.pravatar.cc/150?u=2" class="rounded-circle mx-auto mb-4" style="width: 120px; height: 120px; object-fit: cover;" alt="">
-                    <h5 class="fw-bold mb-1">Jane Doe</h5>
-                    <p class="text-primary small mb-3">Head of Programs</p>
+                    <h5 class="fw-bold mb-1">Jane Frimpong</h5>
+                    <p class="text-primary small mb-3">Title</p>
                     <div class="social-links">
                         <a href="#" class="text-muted me-2 small"><i class="fab fa-linkedin"></i></a>
                         <a href="#" class="text-muted small"><i class="fab fa-twitter"></i></a>
@@ -128,8 +128,8 @@ include('includes/header.php');
             <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="300">
                 <div class="card border-0 shadow-sm hover-shadow overflow-hidden text-center p-4">
                     <img src="https://i.pravatar.cc/150?u=3" class="rounded-circle mx-auto mb-4" style="width: 120px; height: 120px; object-fit: cover;" alt="">
-                    <h5 class="fw-bold mb-1">John Amon</h5>
-                    <p class="text-primary small mb-3">Community Lead</p>
+                    <h5 class="fw-bold mb-1">John Asare</h5>
+                    <p class="text-primary small mb-3">Title</p>
                     <div class="social-links">
                         <a href="#" class="text-muted me-2 small"><i class="fab fa-linkedin"></i></a>
                         <a href="#" class="text-muted small"><i class="fab fa-twitter"></i></a>
@@ -140,7 +140,7 @@ include('includes/header.php');
                 <div class="card border-0 shadow-sm hover-shadow overflow-hidden text-center p-4">
                     <img src="https://i.pravatar.cc/150?u=4" class="rounded-circle mx-auto mb-4" style="width: 120px; height: 120px; object-fit: cover;" alt="">
                     <h5 class="fw-bold mb-1">Sarah Mensah</h5>
-                    <p class="text-primary small mb-3">Finance Manager</p>
+                    <p class="text-primary small mb-3">Title</p>
                     <div class="social-links">
                         <a href="#" class="text-muted me-2 small"><i class="fab fa-linkedin"></i></a>
                         <a href="#" class="text-muted small"><i class="fab fa-twitter"></i></a>
@@ -152,7 +152,7 @@ include('includes/header.php');
 </section>
 
 <!-- Modern CTA -->
-<section class="py-5 bg-primary text-white text-center">
+<section class="py-5 bg-primary text-white text-center" style="background: rgba(0, 0, 0, 0.5) url('assets/images/bg-3.jpg'); background-size: cover; background-position: center;">
     <div class="container py-4" data-aos="zoom-in">
         <h2 class="display-6 fw-bold mb-4">Be Part of the Transformation</h2>
         <div class="d-flex justify-content-center gap-3">

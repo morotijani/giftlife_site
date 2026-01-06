@@ -60,6 +60,7 @@
             <hr class="mx-4 opacity-10">
             <a class="nav-link <?php echo $pageTitle == 'Contacts' ? 'active' : ''; ?>" href="contacts"><i class="fas fa-comment-alt me-2"></i> Messages</a>
             <a class="nav-link <?php echo $pageTitle == 'Volunteers' ? 'active' : ''; ?>" href="volunteers"><i class="fas fa-user-friends me-2"></i> Volunteers</a>
+            <a class="nav-link <?php echo $pageTitle == 'Gallery' ? 'active' : ''; ?>" href="gallery"><i class="fas fa-images me-2"></i> Manage Gallery</a>
             <a class="nav-link <?php echo $pageTitle == 'Donations' ? 'active' : ''; ?>" href="donations"><i class="fas fa-wallet me-2"></i> Donations</a>
             
             <div class="mt-auto px-4 py-5 w-100">

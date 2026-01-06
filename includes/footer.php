@@ -5,7 +5,7 @@
                 <h5 class="fw-bold mb-4" style="color: #720917;">HARUZA FOUNDATION GHANA</h5>
                 <p class="text-secondary">Empowering women and youth through skilled training and providing social amenities to communities across Ghana.</p>
                 <div class="social-links mt-4">
-                    <a href="#" class="text-white me-3 fs-5"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.facebook.com/profile.php?id=100067127297208" class="text-white me-3 fs-5"><i class="fab fa-facebook-f"></i></a>
                     <a href="#" class="text-white me-3 fs-5"><i class="fab fa-twitter"></i></a>
                     <a href="#" class="text-white me-3 fs-5"><i class="fab fa-instagram"></i></a>
                     <a href="#" class="text-white fs-5"><i class="fab fa-linkedin-in"></i></a>
@@ -17,6 +17,7 @@
                     <li class="mb-2"><a href="index" class="text-secondary text-decoration-none">Home</a></li>
                     <li class="mb-2"><a href="about" class="text-secondary text-decoration-none">About Us</a></li>
                     <li class="mb-2"><a href="projects" class="text-secondary text-decoration-none">Our Projects</a></li>
+                    <li class="mb-2"><a href="gallery" class="text-secondary text-decoration-none">Gallery</a></li>
                     <li class="mb-2"><a href="blog" class="text-secondary text-decoration-none">News & Stories</a></li>
                 </ul>
             </div>

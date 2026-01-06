@@ -62,3 +62,17 @@ INSERT INTO blogs (title, slug, content, author, image) VALUES
 ('Pioneering a New Age for Children\'s Learning', 'pioneering-new-age-children-learning', 'This is a sample impact story content about children\'s learning initiatives in rural communities...', 'Admin', 'https://images.unsplash.com/photo-1542810634-71277d95dcbb?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80'),
 ('Healthcare Milestones: 2025 Impact Report', 'healthcare-milestones-2025-report', 'Detailed report on medical aid, healthpost setup, and community support milestones achieved in 2025.', 'Human Jordan', 'https://images.unsplash.com/photo-1532938911079-1b06ac7ceec7?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80'),
 ('Women Empowerment through Skills Training', 'women-empowerment-skills-training', 'How our recent training program is changing lives for women in the central region with sustainable skills.', 'Hayley Montana', 'https://images.unsplash.com/photo-1531482615713-2afd69097998?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80');
+
+-- Gallery Table
+CREATE TABLE IF NOT EXISTS gallery (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    title VARCHAR(255),
+    image_path VARCHAR(255) NOT NULL,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+-- Insert sample gallery items
+INSERT INTO gallery (title, image_path) VALUES 
+('Youth Training Session', 'assets/images/projects/pj-1.jpg'),
+('Community Outreach', 'assets/images/projects/pj-2.jpg'),
+('Skills Workshop', 'assets/images/bg-4.jpg');

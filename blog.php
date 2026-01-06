@@ -19,7 +19,7 @@ try {
         <h1 class="display-3 fw-bold mb-3">Impact <span class="text-primary">Stories</span></h1>
         <p class="lead opacity-75 mx-auto" style="max-width: 600px;">Voices from the ground, milestones achieved, and the journey of transformation.</p>
     </div>
-    <div class="position-absolute w-100 h-100 top-0 start-0 opacity-10" style="background: url('https://images.unsplash.com/photo-1542810634-71277d95dcbb?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80'); background-size: cover;"></div>
+    <div class="position-absolute w-100 h-100 top-0 start-0 opacity-10" style="background: url('assets/images/bg-2.jpg'); background-size: cover;"></div>
 </section>
 
 <section class="section-padding">

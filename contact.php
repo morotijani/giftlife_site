@@ -32,8 +32,8 @@ include('includes/header.php');
                         <div class="me-4 fs-3 opacity-75"><i class="fas fa-phone-alt"></i></div>
                         <div>
                             <h6 class="fw-bold mb-1">Phone Number</h6>
-                            <p class="small mb-0 opacity-75">+233 24 000 0000</p>
-                            <p class="small mb-0 opacity-75">+233 50 000 0000</p>
+                            <p class="small mb-0 opacity-75">+233 54 557 9406</p>
+                            <p class="small mb-0 opacity-75">+233 20 529 2440</p>
                         </div>
                     </div>
                     
@@ -49,7 +49,7 @@ include('includes/header.php');
                     <div class="mt-5 pt-4">
                         <h6 class="fw-bold mb-3">Follow Our Journey</h6>
                         <div class="d-flex gap-3">
-                            <a href="#" class="btn btn-outline-light rounded-circle p-2 d-flex align-items-center justify-content-center" style="width: 45px; height: 45px;"><i class="fab fa-facebook-f"></i></a>
+                            <a href="https://www.facebook.com/profile.php?id=100067127297208" class="btn btn-outline-light rounded-circle p-2 d-flex align-items-center justify-content-center" style="width: 45px; height: 45px;"><i class="fab fa-facebook-f"></i></a>
                             <a href="#" class="btn btn-outline-light rounded-circle p-2 d-flex align-items-center justify-content-center" style="width: 45px; height: 45px;"><i class="fab fa-twitter"></i></a>
                             <a href="#" class="btn btn-outline-light rounded-circle p-2 d-flex align-items-center justify-content-center" style="width: 45px; height: 45px;"><i class="fab fa-instagram"></i></a>
                         </div>
@@ -92,7 +92,7 @@ include('includes/header.php');
 
 <!-- Maps Section -->
 <section class="p-0 position-relative" style="height: 450px;">
-    <iframe class="w-100 h-100 grayscale" style="border:0;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d127066.2536294247!2d-0.233512!3d5.590924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfdf9084b2b7a773%3A0xbed1c4d53a05178!2sAccra!5e0!3m2!1sen!2sgh!4v1680000000000!5m2!1sen!2sgh" allowfullscreen="" loading="lazy"></iframe>
+    <iframe class="w-100 h-100 grayscale" style="border:0;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7949.03024958734!2d-1.6312766587693508!3d5.019853529826463!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfe7624dbe88bc67%3A0x5e58e1fff05097d5!2sShama!5e0!3m2!1sen!2sgh!4v1767473407136!5m2!1sen!2sgh" allowfullscreen="" loading="lazy"></iframe>
 </section>
 
 <?php include('includes/footer.php'); ?>

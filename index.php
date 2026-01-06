@@ -6,7 +6,7 @@ include('includes/header.php');
 ?>
 
 <!-- Premium Hero Section -->
-<section class="hero-section min-vh-100 d-flex align-items-center position-relative overflow-hidden" style="background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('assets/images/hero.jpg'); background-size: cover; background-position: center;">
+<section class="hero-section min-vh-100 d-flex align-items-center position-relative overflow-hidden" style="background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('assets/images/bg-6.jpg'); background-size: cover; background-position: center;">
     <div class="container position-relative" style="z-index: 2;">
         <div class="row">
             <div class="col-lg-8" data-aos="fade-up">
@@ -73,7 +73,7 @@ include('includes/header.php');
                         <div class="badge bg-primary position-absolute top-0 end-0 m-3">Education</div>
                     </div>
                     <div class="card-body p-4">
-                        <h5 class="card-title fw-bold mb-3">Build a Village School</h5>
+                        <h5 class="card-title fw-bold mb-3">Adolescent Education</h5>
                         <p class="card-text text-muted small">Help us build a safe learning environment for 200 children in the Northern Region.</p>
                         <div class="progress mb-3 mt-4" style="height: 8px;">
                             <div class="progress-bar bg-primary" style="width: 65%;"></div>
@@ -92,11 +92,11 @@ include('includes/header.php');
                 <div class="card h-100 hover-shadow shadow-sm overflow-hidden">
                     <div class="position-relative">
                         <img src="assets/images/projects/pj-1.jpg" class="card-img-top" style="height: 250px; object-fit: cover;" alt="Healthcare">
-                        <div class="badge bg-success position-absolute top-0 end-0 m-3">Healthcare</div>
+                        <div class="badge bg-success position-absolute top-0 end-0 m-3">Trainning</div>
                     </div>
                     <div class="card-body p-4">
-                        <h5 class="card-title fw-bold mb-3">Mobile Medical Clinic</h5>
-                        <p class="card-text text-muted small">Providing primary healthcare and vaccines to remote farming communities.</p>
+                        <h5 class="card-title fw-bold mb-3">Soap Making</h5>
+                        <p class="card-text text-muted small">When skills is impacted into the youth at the expense of their life,poverty diminishes.</p>
                         <div class="progress mb-3 mt-4" style="height: 8px;">
                             <div class="progress-bar bg-success" style="width: 40%;"></div>
                         </div>

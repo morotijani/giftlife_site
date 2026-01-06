@@ -14,9 +14,10 @@
                     <li class="nav-item"><a class="nav-link px-3 fw-medium" href="about">About</a></li>
                     <li class="nav-item"><a class="nav-link px-3 fw-medium" href="projects">Projects</a></li>
                     <li class="nav-item"><a class="nav-link px-3 fw-medium" href="blog">News</a></li>
+                    <li class="nav-item"><a class="nav-link px-3 fw-medium" href="gallery">Gallery</a></li>
                     <li class="nav-item"><a class="nav-link px-3 fw-medium" href="contact">Contact</a></li>
                     <li class="nav-item ms-lg-3">
-                        <a href="get-involved" class="btn btn-primary rounded-pill px-4 py-2" style="background-color: #8B1D2E; border-color: #8B1D2E;">Donate Now</a>
+                        <a href="get-involved" class="btn btn-primary rounded-pill px-4 py-2" style="background-color: #720917; border-color: #720917;">Donate Now</a>
                     </li>
                 </ul>
             </div>
